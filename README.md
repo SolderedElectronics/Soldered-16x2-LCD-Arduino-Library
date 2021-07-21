@@ -1,13 +1,13 @@
-# NAZIV PROIZVODA Arduino library
+# 16x2 LCD Arduino library
 
-[![Compile Sketches](https://github.com/e-radionicacom/Generic-easyC/actions/workflows/compile_test.yml/badge.svg?branch=dev)](https://github.com/e-radionicacom/Generic-easyC/actions/workflows/compile_test.yml)
-[![Make docs and publish to GitHub Pages](https://github.com/e-radionicacom/Generic-easyC/actions/workflows/make_docs.yml/badge.svg?branch=dev)](https://github.com/e-radionicacom/Generic-easyC/actions/workflows/make_docs.yml)
+[![Compile Sketches](https://github.com/e-radionicacom/Soldered-16x2-LCD-Arduino-Library/actions/workflows/compile_test.yml/badge.svg?branch=dev)](https://github.com/e-radionicacom/Soldered-16x2-LCD-Arduino-Library/actions/workflows/compile_test.yml)
+[![Make docs and publish to GitHub Pages](https://github.com/e-radionicacom/Soldered-16x2-LCD-Arduino-Library/actions/workflows/make_docs.yml/badge.svg?branch=dev)](https://github.com/e-radionicacom/Soldered-16x2-LCD-Arduino-Library/actions/workflows/make_docs.yml)
 
 | ![Product name](https://upload.wikimedia.org/wikipedia/commons/8/8f/Example_image.svg) |
 | :---------------------------------------------------------------------------------------------: |
-| [NAZIV PROIZVODA](www.solde.red/SKU)                                                            |
+| [NAZIV PROIZVODA](www.solde.red/333003)                                                         |
 
-OPIS PROIZVODA + LINK NA [easyC ecosystem](www.soldered.com/easyC). 
+16x2 LCD Module compiant to [easyC ecosystem](www.soldered.com/easyC). 
 
 ### Repository Contents
 - **/src** - source files for the library (.h & .cpp)
@@ -15,7 +15,7 @@ OPIS PROIZVODA + LINK NA [easyC ecosystem](www.soldered.com/easyC).
 - ***other*** - *keywords* file highlights function words in your IDE, *library.properties* enables implementation with Arduino Library Manager.
 
 ### Hardware design
-You can find hardware design for this board in NAZIV PROIZVODA hardware repository
+You can find hardware design for this board in 16x2 LCD Module hardware repository
 
 ### Documentation
 
@@ -25,7 +25,7 @@ Access Arduino library documentation [here](ADD LINK).
 - Installing an Arduino library
 
 ### About Soldered
-![Soldered logo](LINK IMAGE HERE)
+![Soldered logo](https://raw.githubusercontent.com/e-radionicacom/Generic-easyC/dev/extras/Logo%20vertical-2.svg)
 
 At Soldered, we design and manufacture a wide selection of electronic products to help you turn your ideas into acts and bring you one step closer to your final project. Our products are intented for makers and crafted in-house by our experienced team in Osijek, Croatia. We believe that sharing is a crucial element for improvement and innovation, and we work hard to stay connected with all our makers regardless of their skill or experience level. Therefore, all our products are open-source. Finally, we always have your back. If you face any problem concerning either your shopping experience or your electronics project, our team will help you deal with it, offering efficient customer service and cost-free technical support anytime. Some of those might be useful for you:
 
