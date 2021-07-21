@@ -1,4 +1,5 @@
 var searchData=
 [
-  ['address_0',['address',['../class_easy_c.html#a6f4c6f2e8723b0c0495e126d49f5fcda',1,'EasyC']]]
+  ['16x2_2dlcd_2dsoldered_2ecpp_0',['16x2-LCD-SOLDERED.cpp',['../16x2-_l_c_d-_s_o_l_d_e_r_e_d_8cpp.html',1,'']]],
+  ['16x2_2dlcd_2dsoldered_2eh_1',['16x2-LCD-SOLDERED.h',['../16x2-_l_c_d-_s_o_l_d_e_r_e_d_8h.html',1,'']]]
 ];

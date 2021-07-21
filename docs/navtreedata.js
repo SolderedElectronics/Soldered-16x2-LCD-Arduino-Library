@@ -24,7 +24,8 @@
 */
 var NAVTREE =
 [
-  [ "Obstacle sensor library", "index.html", [
+  [ "16x2 easyC LCD Library", "index.html", [
+    [ "LCD_I2C", "md_src_libs__l_c_d__i2_c__r_e_a_d_m_e.html", null ],
     [ "Classes", "annotated.html", [
       [ "Class List", "annotated.html", "annotated_dup" ],
       [ "Class Index", "classes.html", null ],
@@ -43,7 +44,7 @@ var NAVTREE =
 
 var NAVTREEINDEX =
 [
-"_generic-easy_c-_s_o_l_d_e_r_e_d_8cpp.html"
+"16x2-_l_c_d-_s_o_l_d_e_r_e_d_8cpp.html"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

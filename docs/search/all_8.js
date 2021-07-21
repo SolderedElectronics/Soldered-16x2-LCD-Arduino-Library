@@ -1,5 +1,4 @@
 var searchData=
 [
-  ['readdata_13',['readData',['../class_easy_c.html#a9a3d39be50b348768bc4b5dea3dae01a',1,'EasyC']]],
-  ['readregister_14',['readRegister',['../class_easy_c.html#a45bd6c915c1fa0998e273f69ee2d2376',1,'EasyC']]]
+  ['home_25',['home',['../class_l_c_d___i2_c.html#af64793f4fed5a850a998619d277248fa',1,'LCD_I2C']]]
 ];
