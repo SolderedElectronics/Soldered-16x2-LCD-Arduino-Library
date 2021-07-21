@@ -1,13 +1,13 @@
-# NAZIV PROIZVODA Arduino library
+# 16x2 easyC LCD Arduino library
 
-[![Compile Sketches](https://github.com/e-radionicacom/Generic-easyC/actions/workflows/compile_test.yml/badge.svg?branch=dev)](https://github.com/e-radionicacom/Generic-easyC/actions/workflows/compile_test.yml)
-[![Make docs and publish to GitHub Pages](https://github.com/e-radionicacom/Generic-easyC/actions/workflows/make_docs.yml/badge.svg?branch=dev)](https://github.com/e-radionicacom/Generic-easyC/actions/workflows/make_docs.yml)
+[![Compile Sketches](https://github.com/e-radionicacom/16x2-LCD/actions/workflows/compile_test.yml/badge.svg?branch=dev)](https://github.com/e-radionicacom/16x2-LCD/actions/workflows/compile_test.yml)
+[![Make docs and publish to GitHub Pages](https://github.com/e-radionicacom/16x2-LCD/actions/workflows/make_docs.yml/badge.svg?branch=dev)](https://github.com/e-radionicacom/16x2-LCD/actions/workflows/make_docs.yml)
 
 | ![Tux, the Linux mascot](https://upload.wikimedia.org/wikipedia/commons/8/8f/Example_image.svg) |
 | :---------------------------------------------------------------------------------------------: |
-| [NAZIV PROIZVODA](www.solde.red/SKU)                                                            |
+| [16x2-LCD](www.solde.red/333016)                                                                |
 ​
-OPIS PROIZVODA + LINK NA [easyC ecosystem](www.soldered.com/easyC). 
+16x2 LCD display by SOLDERED, Compatible with the [easyC ecosystem](www.soldered.com/easyC). 
 ​
 ### Repository Contents
 - **/src** - source files for the library (.h & .cpp)
@@ -15,15 +15,22 @@ OPIS PROIZVODA + LINK NA [easyC ecosystem](www.soldered.com/easyC).
 - ***other*** - other files are present in the root folder of this repo. *keywords* file highlights function words in your IDE, *library.properties* enables implementation with Arduino Library Manager, and other files help us generate and mantain the code and documentation.
 ​
 ### Hardware
-- NAZIV PROIZVODA hardware repository
-​
+- 16x2-LCD hardware repository
+
+TODO​
+
 ### Documentation
-- Tutorial for using the NAZIV PROIZVODA board
+- Tutorial for using the 16x2-LCD PROIZVODA board
+
+TODO
+
 - Installing an Arduino library
 ​
+TODO
+
 ### Original source - UKLONI AKO NEMA
 ​
-This library is possible thanks to original *naziv-libraryja+link* library. Thank you, *library-creator+link*. 
+This library is possible thanks to original [LCD_I2C](https://github.com/blackhack/LCD_I2C) library. Thank you, [blackhack](https://github.com/blackhack). 
 ​
 ### Open-source license
 Soldered invests vast amounts of time into hardware & software for these products, which are all open-source. Please support future development by buying one of our products. 
