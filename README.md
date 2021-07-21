@@ -19,7 +19,7 @@ You can find hardware design for this board in 16x2 LCD Module hardware reposito
 
 ### Documentation
 
-Access Arduino library documentation [here](ADD LINK).
+Access Arduino library documentation [here](https://e-radionicacom.github.io/Soldered-16x2-LCD-Arduino-Library/).
 
 - Tutorial for using the NAZIV PROIZVODA board
 - Installing an Arduino library
