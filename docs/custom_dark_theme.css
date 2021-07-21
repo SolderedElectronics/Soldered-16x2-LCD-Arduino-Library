@@ -4,7 +4,7 @@
 
 /* TOP MENU */
 .sm-dox {
-    background: #dfe5f2 !important;
+    background: #25BAA8 !important;
 }
 
 .sm-dox a {
@@ -12,21 +12,21 @@
 }
 
 body {
-    background: #282923;
+    background: #10161B;
     background-image: none;
     color: #D8D8D8;
 }
 
 div.fragment,
 pre.fragment {
-    border: 1px solid #000000;
-    background: #32363d;
+    border: 1px solid #10161B;
+    background: #10161B;
 }
 
 a,
 a:link,
 a:visited {
-    color: #67d8ef !important;
+    color: #7025BA !important;
 }
 
 .highlighted {
@@ -42,7 +42,7 @@ a.highlighted {
 /*********************************************/
 #main-nav {
     /* display: none; */
-    border-bottom: 1px solid #32363d;
+    border-bottom: 1px solid #10161B;
 }
 
 #main-nav .sm-dox {
@@ -65,11 +65,11 @@ a.highlighted {
 
 .sm-dox ul {
     border: 1px solid #000000;
-    background: #32363d;
+    background: #10161B;
 }
 
 .directory tr.even {
-    background: #32363d;
+    background: #10161B;
 }
 
 
@@ -78,7 +78,7 @@ a.highlighted {
 /*********************************************/
 #MSearchSelectWindow {
     border: 1px solid #000000;
-    background: #32363d;
+    background: #10161B;
 }
 
 a.selectItem {
@@ -86,13 +86,13 @@ a.selectItem {
 }
 
 a.SelectItem:hover {
-    background: #282923 !important;
+    background: #FFFFFF !important;
 }
 
 #MSearchResultsWindow {
     border: 1px solid #000000;
-    background: #32363d;
-    color: #67d8ef !important;
+    background: #10161B;
+    color: #7025BA !important;
     ;
 }
 
@@ -105,7 +105,7 @@ a.SelectItem:hover {
 
 #nav-tree .selected {
     background-image: none;
-    background: #32363d;
+    background: #10161B;
 }
 
 /*********************************************/
@@ -129,7 +129,7 @@ dd code {
 /**         Table of Contents (ToC)         **/
 /*********************************************/
 div.toc {
-    background: #32363d;
+    background: #10161B;
     border: 1px solid #000000;
 }
 
@@ -142,12 +142,12 @@ div.toc h3 {
 /**              Content table              **/
 /*********************************************/
 table.doxtable tr:nth-child(even) td {
-    background: #32363d;
+    background: #10161B;
 }
 
 div.header {
     background: transparent;
-    border-bottom: 1px solid #32363d;
+    border-bottom: 1px solid #10161B;
 }
 
 /*********************************************/
@@ -182,7 +182,7 @@ div.header {
     background-image: none;
     border-right: 1px solid #999999;
 
-    color: #32363d;
+    color: #10161B;
 }
 
 .tablist a:hover,
@@ -212,7 +212,7 @@ dl.reflist {}
 /**               Note, warning             **/
 /*********************************************/
 #docs_list {
-    background: #32363d;
+    background: #10161B;
 }
 
 #docs_list ul li {
@@ -225,14 +225,14 @@ dl.reflist {}
 
 #docs_list ul li a:hover,
 #docs_list ul li a.docs_current {
-    background: #282923;
+    background: #FFFFFF;
 }
 
 /*********************************************/
 /**               Resizable UI              **/
 /*********************************************/
 .ui-resizable-e {
-    background: #32363d;
+    background: #10161B;
 }
 
 /*********************************************/
@@ -244,7 +244,7 @@ dl.reflist {}
 /*********************************************/
 div.line {
     background: transparent;
-    color: #d7d7d7;
+    color: #25BAA8;
 }
 
 div.line a {
@@ -252,17 +252,17 @@ div.line a {
 }
 
 span.keyword {
-    color: #f92472;
+    color: #BCA876;
     font-style: italic;
 }
 
 span.keywordtype {
-    color: #67cfc1;
+    color: #25BAA8;
     font-style: italic;
 }
 
 span.keywordflow {
-    color: #f92472;
+    color: #BCA876;
     font-style: italic;
 }
 
@@ -271,19 +271,19 @@ span.comment {
 }
 
 span.preprocessor {
-    color: #a6e22b;
+    color: #25BAA8;
 }
 
 span.stringliteral {
-    color: #e7db74;
+    color: #25BAA8;
 }
 
 span.charliteral {
-    color: #e7db74;
+    color: #25BAA8;
 }
 
 span.vhdldigit {
-    color: #ff00ff;
+    color: #BCA876;
 }
 
 span.vhdlchar {
@@ -291,11 +291,11 @@ span.vhdlchar {
 }
 
 span.vhdlkeyword {
-    color: #700070;
+    color: #BCA876;
 }
 
 span.vhdllogic {
-    color: #ff0000;
+    color: #BCA876;
 }
 
 span.lineno {
@@ -316,7 +316,7 @@ span.lineno a {
 .memTemplItemLeft,
 .memTemplItemRight,
 .memTemplParams {
-    background: #32363d;
+    background: #10161B;
     color: inherit;
 }
 
@@ -330,19 +330,19 @@ span.lineno a {
 }
 
 h2.groupheader {
-    color: #67d8ef;
+    color: #BCA876;
 }
 
 /*********************************************/
 /**                 Mem items               **/
 /*********************************************/
 .memtitle {
-    background: #32363d !important;
+    background: #10161B !important;
     border-color: #000000;
 }
 
 .memitem {
-    background: #32363d !important;
+    background: #10161B !important;
     color: inherit;
     text-shadow: none;
 }
@@ -365,7 +365,7 @@ td.memItemRight {
 
 .paramname,
 .paramname em {
-    color: #bf5f82;
+    color: #BCA876;
 }
 
 .memdoc {
@@ -378,7 +378,7 @@ td.memItemRight {
 /**                 Footer                  **/
 /*********************************************/
 .titlearea {
-    border-bottom: 1px solid #32363d;
+    border-bottom: 1px solid #10161B;
 }
 
 /*********************************************/
@@ -392,7 +392,7 @@ td.memItemRight {
     background: transparent;
     color: inherit;
     border: none;
-    border-top: 1px solid #32363d;
+    border-top: 1px solid #10161B;
 }
 
 .navpath li.footer {
@@ -417,13 +417,13 @@ td.memItemRight {
 
 /* Handle */
 ::-webkit-scrollbar-thumb {
-    background: #234567;
+    background: #BCA876;
     border: none;
 }
 
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
-    background: #32363d;
+    background: #10161B;
 }
 
 /*********************************************/
@@ -435,5 +435,5 @@ h3.glow,
 h4.glow,
 h5.glow,
 h6.glow {
-    text-shadow: 0 0 15px #67d8ef;
+    text-shadow: 0 0 15px #7025BA;
 }
