@@ -12,15 +12,15 @@
 }
 
 body {
-    background: #10161B;
+    background: #D6D6D6;
     background-image: none;
     color: #D8D8D8;
 }
 
 div.fragment,
 pre.fragment {
-    border: 1px solid #10161B;
-    background: #10161B;
+    border: 1px solid #D6D6D6;
+    background: #D6D6D6;
 }
 
 a,
@@ -42,7 +42,7 @@ a.highlighted {
 /*********************************************/
 #main-nav {
     /* display: none; */
-    border-bottom: 1px solid #10161B;
+    border-bottom: 1px solid #D6D6D6;
 }
 
 #main-nav .sm-dox {
@@ -55,7 +55,7 @@ a.highlighted {
 }
 
 .sm-dox a:hover {
-    background: #10161B !important;
+    background: #D6D6D6 !important;
 }
 
 .sm-dox {
@@ -65,11 +65,11 @@ a.highlighted {
 
 .sm-dox ul {
     border: 1px solid #000000;
-    background: #10161B;
+    background: #D6D6D6;
 }
 
 .directory tr.even {
-    background: #10161B;
+    background: #D6D6D6;
 }
 
 
@@ -78,7 +78,7 @@ a.highlighted {
 /*********************************************/
 #MSearchSelectWindow {
     border: 1px solid #000000;
-    background: #10161B;
+    background: #D6D6D6;
 }
 
 a.selectItem {
@@ -91,7 +91,7 @@ a.SelectItem:hover {
 
 #MSearchResultsWindow {
     border: 1px solid #000000;
-    background: #10161B;
+    background: #D6D6D6;
     color: #7025BA !important;
     ;
 }
@@ -105,7 +105,7 @@ a.SelectItem:hover {
 
 #nav-tree .selected {
     background-image: none;
-    background: #10161B;
+    background: #D6D6D6;
 }
 
 /*********************************************/
@@ -129,7 +129,7 @@ dd code {
 /**         Table of Contents (ToC)         **/
 /*********************************************/
 div.toc {
-    background: #10161B;
+    background: #D6D6D6;
     border: 1px solid #000000;
 }
 
@@ -142,19 +142,19 @@ div.toc h3 {
 /**              Content table              **/
 /*********************************************/
 table.doxtable tr:nth-child(even) td {
-    background: #10161B;
+    background: #D6D6D6;
 }
 
 div.header {
     background: transparent;
-    border-bottom: 1px solid #10161B;
+    border-bottom: 1px solid #D6D6D6;
 }
 
 /*********************************************/
 /**               Field table               **/
 /*********************************************/
 .fieldtable th {
-    background: #10161B;
+    background: #D6D6D6;
     color: inherit;
 }
 
@@ -182,7 +182,7 @@ div.header {
     background-image: none;
     border-right: 1px solid #999999;
 
-    color: #10161B;
+    color: #D6D6D6;
 }
 
 .tablist a:hover,
@@ -212,7 +212,7 @@ dl.reflist {}
 /**               Note, warning             **/
 /*********************************************/
 #docs_list {
-    background: #10161B;
+    background: #D6D6D6;
 }
 
 #docs_list ul li {
@@ -232,7 +232,7 @@ dl.reflist {}
 /**               Resizable UI              **/
 /*********************************************/
 .ui-resizable-e {
-    background: #10161B;
+    background: #D6D6D6;
 }
 
 /*********************************************/
@@ -316,7 +316,7 @@ span.lineno a {
 .memTemplItemLeft,
 .memTemplItemRight,
 .memTemplParams {
-    background: #10161B;
+    background: #D6D6D6;
     color: inherit;
 }
 
@@ -337,12 +337,12 @@ h2.groupheader {
 /**                 Mem items               **/
 /*********************************************/
 .memtitle {
-    background: #10161B !important;
+    background: #D6D6D6 !important;
     border-color: #000000;
 }
 
 .memitem {
-    background: #10161B !important;
+    background: #D6D6D6 !important;
     color: inherit;
     text-shadow: none;
 }
@@ -378,7 +378,7 @@ td.memItemRight {
 /**                 Footer                  **/
 /*********************************************/
 .titlearea {
-    border-bottom: 1px solid #10161B;
+    border-bottom: 1px solid #D6D6D6;
 }
 
 /*********************************************/
@@ -392,7 +392,7 @@ td.memItemRight {
     background: transparent;
     color: inherit;
     border: none;
-    border-top: 1px solid #10161B;
+    border-top: 1px solid #D6D6D6;
 }
 
 .navpath li.footer {
@@ -423,7 +423,7 @@ td.memItemRight {
 
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
-    background: #10161B;
+    background: #D6D6D6;
 }
 
 /*********************************************/
