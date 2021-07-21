@@ -55,7 +55,7 @@ a.highlighted {
 }
 
 .sm-dox a:hover {
-    background: #282923 !important;
+    background: #10161B !important;
 }
 
 .sm-dox {
@@ -154,7 +154,7 @@ div.header {
 /**               Field table               **/
 /*********************************************/
 .fieldtable th {
-    background: #282923;
+    background: #10161B;
     color: inherit;
 }
 
