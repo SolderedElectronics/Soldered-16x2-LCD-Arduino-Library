@@ -1,40 +1,44 @@
-# 16x2 easyC LCD Arduino library
+# NAZIV PROIZVODA Arduino library
 
-[![Compile Sketches](https://github.com/e-radionicacom/16x2-LCD/actions/workflows/compile_test.yml/badge.svg?branch=dev)](https://github.com/e-radionicacom/16x2-LCD/actions/workflows/compile_test.yml)
-[![Make docs and publish to GitHub Pages](https://github.com/e-radionicacom/16x2-LCD/actions/workflows/make_docs.yml/badge.svg?branch=dev)](https://github.com/e-radionicacom/16x2-LCD/actions/workflows/make_docs.yml)
+[![Compile Sketches](https://github.com/e-radionicacom/Generic-easyC/actions/workflows/compile_test.yml/badge.svg?branch=dev)](https://github.com/e-radionicacom/Generic-easyC/actions/workflows/compile_test.yml)
+[![Make docs and publish to GitHub Pages](https://github.com/e-radionicacom/Generic-easyC/actions/workflows/make_docs.yml/badge.svg?branch=dev)](https://github.com/e-radionicacom/Generic-easyC/actions/workflows/make_docs.yml)
 
-| ![Tux, the Linux mascot](https://upload.wikimedia.org/wikipedia/commons/8/8f/Example_image.svg) |
+| ![Product name](https://upload.wikimedia.org/wikipedia/commons/8/8f/Example_image.svg) |
 | :---------------------------------------------------------------------------------------------: |
-| [16x2-LCD](www.solde.red/333016)                                                                |
-​
-16x2 LCD display by SOLDERED, Compatible with the [easyC ecosystem](www.soldered.com/easyC). 
-​
+| [NAZIV PROIZVODA](www.solde.red/SKU)                                                            |
+
+OPIS PROIZVODA + LINK NA [easyC ecosystem](www.soldered.com/easyC). 
+
 ### Repository Contents
 - **/src** - source files for the library (.h & .cpp)
 - **/examples** - examples for using the library
-- ***other*** - other files are present in the root folder of this repo. *keywords* file highlights function words in your IDE, *library.properties* enables implementation with Arduino Library Manager, and other files help us generate and mantain the code and documentation.
-​
-### Hardware
-- 16x2-LCD hardware repository
+- ***other*** - *keywords* file highlights function words in your IDE, *library.properties* enables implementation with Arduino Library Manager.
 
-TODO​
+### Hardware design
+You can find hardware design for this board in NAZIV PROIZVODA hardware repository
 
 ### Documentation
-- Tutorial for using the 16x2-LCD PROIZVODA board
 
-TODO
+Access Arduino library documentation [here](ADD LINK).
 
+- Tutorial for using the NAZIV PROIZVODA board
 - Installing an Arduino library
-​
-TODO
 
-### Original source - UKLONI AKO NEMA
-​
-This library is possible thanks to original [LCD_I2C](https://github.com/blackhack/LCD_I2C) library. Thank you, [blackhack](https://github.com/blackhack). 
-​
+### About Soldered
+![Soldered logo](LINK IMAGE HERE)
+
+At Soldered, we design and manufacture a wide selection of electronic products to help you turn your ideas into acts and bring you one step closer to your final project. Our products are intented for makers and crafted in-house by our experienced team in Osijek, Croatia. We believe that sharing is a crucial element for improvement and innovation, and we work hard to stay connected with all our makers regardless of their skill or experience level. Therefore, all our products are open-source. Finally, we always have your back. If you face any problem concerning either your shopping experience or your electronics project, our team will help you deal with it, offering efficient customer service and cost-free technical support anytime. Some of those might be useful for you:
+
+- [Web Store](https://www.soldered.com)
+- [Educational content](https://learn.soldered.com)
+- [Community & technical support](https://community.soldered.com)
+- [Custom PCBs](https://pcb.soldered.com)
+
+
 ### Open-source license
 Soldered invests vast amounts of time into hardware & software for these products, which are all open-source. Please support future development by buying one of our products. 
-​
-Check license details in the LICENSE file. Long story short, use these open-source files for any purpose you want to, as long as you apply the same open-source licence to it and disclose the original source. The open-source files are distributed as-is, no warranty is given.
-​
+
+Check license details in the LICENSE file. Long story short, use these open-source files for any purpose you want to, as long as you apply the same open-source licence to it and disclose the original source. No warranty - all designs in this repository are distributed in the hope that they will be useful, but without any warranty. They are provided "AS IS", therefore without warranty of any kind, either expressed or implied. The entire quality and performance of what you do with the contents of this repository are your responsibility. In no event, Soldered (TAVU) will be liable for your damages, losses, including any general, special, incidental or consequential damage arising out of the use or inability to use the contents of this repository. 
+
 Thank you from your fellow makers at Soldered.
+
