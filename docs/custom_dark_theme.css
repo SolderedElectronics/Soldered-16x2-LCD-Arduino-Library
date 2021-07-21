@@ -19,7 +19,7 @@ body {
 
 div.fragment,
 pre.fragment {
-    border: 1px solid #D6D6D6;
+    border: 1px solid #10161B;
     background: #D6D6D6;
 }
 
@@ -42,7 +42,7 @@ a.highlighted {
 /*********************************************/
 #main-nav {
     /* display: none; */
-    border-bottom: 1px solid #D6D6D6;
+    border-bottom: 1px solid #10161B;
 }
 
 #main-nav .sm-dox {
@@ -147,7 +147,7 @@ table.doxtable tr:nth-child(even) td {
 
 div.header {
     background: transparent;
-    border-bottom: 1px solid #D6D6D6;
+    border-bottom: 1px solid #10161B;
 }
 
 /*********************************************/
@@ -182,7 +182,7 @@ div.header {
     background-image: none;
     border-right: 1px solid #999999;
 
-    color: #D6D6D6;
+    color: #10161B;
 }
 
 .tablist a:hover,
@@ -378,7 +378,7 @@ td.memItemRight {
 /**                 Footer                  **/
 /*********************************************/
 .titlearea {
-    border-bottom: 1px solid #D6D6D6;
+    border-bottom: 1px solid #10161B;
 }
 
 /*********************************************/
@@ -392,7 +392,7 @@ td.memItemRight {
     background: transparent;
     color: inherit;
     border: none;
-    border-top: 1px solid #D6D6D6;
+    border-top: 1px solid #10161B;
 }
 
 .navpath li.footer {
