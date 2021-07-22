@@ -16,6 +16,7 @@
 
 #include "Arduino.h"
 #include "libs/Generic-easyC/easyC.h"
+#include "libs/LCD_I2C/src/LCD_I2C.h"
 
 class LCD : public LCD_I2C
 {
