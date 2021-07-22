@@ -1,11 +1,15 @@
 # 16x2 LCD Arduino library
 
+[//]: # (========= CHANGE HERE =========)
 [![Compile Sketches](https://github.com/e-radionicacom/Soldered-16x2-LCD-Arduino-Library/actions/workflows/compile_test.yml/badge.svg?branch=dev)](https://github.com/e-radionicacom/Soldered-16x2-LCD-Arduino-Library/actions/workflows/compile_test.yml)
+
+[//]: # (========= CHANGE HERE =========)
 [![Make docs and publish to GitHub Pages](https://github.com/e-radionicacom/Soldered-16x2-LCD-Arduino-Library/actions/workflows/make_docs.yml/badge.svg?branch=dev)](https://github.com/e-radionicacom/Soldered-16x2-LCD-Arduino-Library/actions/workflows/make_docs.yml)
 
-| ![Product name](https://upload.wikimedia.org/wikipedia/commons/8/8f/Example_image.svg) |
+| ![Product name](https://upload.wikimedia.org/wikipedia/commons/8/8f/Example_image.svg)          | [//]: # (========= CHANGE HERE =========)
 | :---------------------------------------------------------------------------------------------: |
-| [NAZIV PROIZVODA](www.solde.red/333003)                                                         |
+| [NAZIV PROIZVODA](www.solde.red/333003)                                                         | [//]: # (========= CHANGE HERE =========)
+
 
 16x2 LCD Module compiant to [easyC ecosystem](www.soldered.com/easyC). 
 
@@ -19,10 +23,11 @@ You can find hardware design for this board in 16x2 LCD Module hardware reposito
 
 ### Documentation
 
-Access Arduino library documentation [here](https://e-radionicacom.github.io/Soldered-16x2-LCD-Arduino-Library/).
+[//]: # (========= CHANGE HERE =========)
+Access Arduino library documentation [here](https://e-radionicacom.github.io/Soldered-16x2-LCD-Arduino-Library/). 
 
-- Tutorial for using the NAZIV PROIZVODA board
-- Installing an Arduino library
+- Tutorial for using the NAZIV PROIZVODA board [//]: # (========= CHANGE HERE =========)
+- Installing an Arduino library             
 
 ### About Soldered
 ![Soldered logo](https://raw.githubusercontent.com/e-radionicacom/Generic-easyC/dev/extras/Logo%20vertical-2.svg)
