@@ -175,48 +175,48 @@ dl.reflist {}
 
 /* Header */
 dl.note dt {
-    background-color: #BCA876;
+    background-color: #cbc693;
 }
 
 dl.warning dt {
-    background-color: #25BAA8;
+    background-color: #bf5f82;
 }
 
 dl.todo dt {
-    background-color: #25BAA8;
+    background-color: #82b3c9;
 }
 
 dl.deprecated dt {
-    background-color: #25BAA8;
+    background-color: #af8eb5;
 }
 
 dl.reflist dt {
-    background-color: #25BAA8;
+    background-color: #cbae82;
 }
 
 /* Content */
 dl.note dd {
-    background-color: #25BAA8;
+    background-color: #fff9c4;
     border-color: #cbc693;
 }
 
 dl.warning dd {
-    background-color: #25BAA8;
+    background-color: #f48fb1;
     border-color: #bf5f82;
 }
 
 dl.todo dd {
-    background-color: #25BAA8;
+    background-color: #b3e5fc;
     border-color: #82b3c9;
 }
 
 dl.deprecated dd {
-    background-color: #25BAA8;
+    background-color: #e1bee7;
     border-color: #af8eb5;
 }
 
 dl.reflist dd {
-    background-color: #25BAA8;
+    background-color: #ffe0b2;
     border-color: #cbae82;
 }
 
