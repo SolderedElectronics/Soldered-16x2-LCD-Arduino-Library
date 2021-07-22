@@ -2,13 +2,13 @@
 
 [//]: # (========= CHANGE HERE =========)
 [![Compile Sketches](https://github.com/e-radionicacom/Soldered-16x2-LCD-Arduino-Library/actions/workflows/compile_test.yml/badge.svg?branch=dev)](https://github.com/e-radionicacom/Soldered-16x2-LCD-Arduino-Library/actions/workflows/compile_test.yml)
-
 [//]: # (========= CHANGE HERE =========)
 [![Make docs and publish to GitHub Pages](https://github.com/e-radionicacom/Soldered-16x2-LCD-Arduino-Library/actions/workflows/make_docs.yml/badge.svg?branch=dev)](https://github.com/e-radionicacom/Soldered-16x2-LCD-Arduino-Library/actions/workflows/make_docs.yml)
 
-| ![Product name](https://upload.wikimedia.org/wikipedia/commons/8/8f/Example_image.svg)          | [//]: # (========= CHANGE HERE =========)
+[//]: # (========= CHANGE HERE =========)
+| ![Product name](https://upload.wikimedia.org/wikipedia/commons/8/8f/Example_image.svg)          | 
 | :---------------------------------------------------------------------------------------------: |
-| [NAZIV PROIZVODA](www.solde.red/333003)                                                         | [//]: # (========= CHANGE HERE =========)
+| [NAZIV PROIZVODA](www.solde.red/333003)    [//]: # (========= CHANGE HERE =========)            | 
 
 
 16x2 LCD Module compiant to [easyC ecosystem](www.soldered.com/easyC). 
