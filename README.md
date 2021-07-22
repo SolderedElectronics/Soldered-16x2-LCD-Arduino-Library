@@ -38,6 +38,9 @@ At Soldered, we design and manufacture a wide selection of electronic products t
 - [Community & technical support](https://community.soldered.com)
 - [Custom PCBs](https://pcb.soldered.com)
 
+### Original source
+​
+This library is possible thanks to original [LCD_I2c](https://github.com/blackhack/LCD_I2C) library. Thank you, blackhack. 
 
 ### Open-source license
 Soldered invests vast amounts of time into hardware & software for these products, which are all open-source. Please support future development by buying one of our products. 
