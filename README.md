@@ -1,14 +1,13 @@
 # 16x2 LCD Arduino library
 
-[//]: # (========= CHANGE HERE =========)
+
 [![Compile Sketches](https://github.com/e-radionicacom/Soldered-16x2-LCD-Arduino-Library/actions/workflows/compile_test.yml/badge.svg?branch=dev)](https://github.com/e-radionicacom/Soldered-16x2-LCD-Arduino-Library/actions/workflows/compile_test.yml)
-[//]: # (========= CHANGE HERE =========)
 [![Make docs and publish to GitHub Pages](https://github.com/e-radionicacom/Soldered-16x2-LCD-Arduino-Library/actions/workflows/make_docs.yml/badge.svg?branch=dev)](https://github.com/e-radionicacom/Soldered-16x2-LCD-Arduino-Library/actions/workflows/make_docs.yml)
 
-[//]: # (========= CHANGE HERE =========)
-| ![Product name](https://upload.wikimedia.org/wikipedia/commons/8/8f/Example_image.svg)          | 
+
+| ![NAZIV 16x2 LCD](https://upload.wikimedia.org/wikipedia/commons/8/8f/Example_image.svg)        | 
 | :---------------------------------------------------------------------------------------------: |
-| [NAZIV PROIZVODA](www.solde.red/333003)    [//]: # (========= CHANGE HERE =========)            | 
+| [NAZIV 16x2 LCD](www.solde.red/333003)                                                          | 
 
 
 16x2 LCD Module compiant to [easyC ecosystem](www.soldered.com/easyC). 
@@ -23,10 +22,10 @@ You can find hardware design for this board in 16x2 LCD Module hardware reposito
 
 ### Documentation
 
-[//]: # (========= CHANGE HERE =========)
+
 Access Arduino library documentation [here](https://e-radionicacom.github.io/Soldered-16x2-LCD-Arduino-Library/). 
 
-- Tutorial for using the NAZIV PROIZVODA board [//]: # (========= CHANGE HERE =========)
+- Tutorial for using the NAZIV PROIZVODA board 
 - Installing an Arduino library             
 
 ### About Soldered
