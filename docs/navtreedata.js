@@ -25,7 +25,7 @@
 var NAVTREE =
 [
   [ "16x2 easyC LCD Library", "index.html", [
-    [ "LCD_I2C", "md_src_libs__l_c_d__i2_c__r_e_a_d_m_e.html", null ],
+    [ "LCD_I2C", "index.html", null ],
     [ "Classes", "annotated.html", [
       [ "Class List", "annotated.html", "annotated_dup" ],
       [ "Class Index", "classes.html", null ],
