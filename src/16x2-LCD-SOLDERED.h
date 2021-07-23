@@ -9,8 +9,8 @@
  * @authors     Zvonimir Haramustek for Soldered.com.com
  ***************************************************/
 
-#ifndef __SENSOR__
-#define __SENSOR__
+#ifndef __16X2_SOLDERED__
+#define __16X2_SOLDERED__
 
 #define I2C_ADDRESS 0x20
 
