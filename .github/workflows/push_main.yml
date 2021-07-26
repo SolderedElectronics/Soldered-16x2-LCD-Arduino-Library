@@ -1,42 +1,52 @@
-name: Push to main
-
+name: Compile Sketches
 on: [push]
 
 jobs:
-  push_main:
+  build:
     runs-on: ubuntu-latest
 
+    strategy:
+      matrix:
+        board:
+          - fqbn: Dasduino_Boards:megaavr:Attiny
+          - fqbn: Dasduino_Boards:esp8266:connect
+          - fqbn: Dasduino_Boards:esp32:connectplus
+          - fqbn: Dasduino_Boards:esp32:lora32
+          - fqbn: Dasduino_Boards:avr:core
+          - fqbn: Dasduino_Boards:avr:LoRa
+          # - fqbn: Dasduino_Boards:stm32:swiftf1
+          # - fqbn: Dasduino_Boards:stm32:swiftl0
+
     steps:
-      - name: Checkout main branch
-        uses: actions/checkout@v2
-        with:
-          ref: main
-          path: .
-
-      - run: git rm -rf .
-
       - name: Checkout dev branch
         uses: actions/checkout@v2
+
+      - run: echo ${{ matrix.board.fqbn }}
+
+      - name: Compile examples
+        uses: arduino/compile-sketches@v1
         with:
-          ref: dev
-          path: ./dev
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+          platforms: |
+            - name: "arduino:avr"
 
-      - run: sudo apt-get install tree
-      - run: tree
+            - source-url: https://github.com/e-radionicacom/Dasduino-Board-Definitions-for-Arduino-IDE/raw/master/package_Dasduino_Boards_index.json
+              name: "Dasduino_Boards:avr"
 
-      - run: cp -r ./dev/examples ./examples
-      - run: cp -r ./dev/src ./src
-      - run: cp ./dev/LICENSE ./LICENSE
-      - run: cp ./dev/README.md ./README.md
-      - run: cp ./dev/keywords.txt ./keywords.txt
-      - run: cp ./dev/library.properties ./library.properties
+            - source-url: https://github.com/e-radionicacom/Dasduino-Board-Definitions-for-Arduino-IDE/raw/master/package_Dasduino_Boards_index.json
+              name: "Dasduino_Boards:esp32"
 
-      - run: tree
+            - source-url: https://github.com/e-radionicacom/Dasduino-Board-Definitions-for-Arduino-IDE/raw/master/package_Dasduino_Boards_index.json
+              name: "Dasduino_Boards:esp8266"
 
-      - uses: EndBug/add-and-commit@v7
-        with:
-          author_name: Main Push Robot
-          author_email: robot@example.com
-          message: "Committing dev changes"
-          branch: main
-          add: "examples src LICENSE README.md keywords.txt library.properties"
+            - source-url: https://github.com/e-radionicacom/Dasduino-Board-Definitions-for-Arduino-IDE/raw/master/package_Dasduino_Boards_index.json
+              name: "Dasduino_Boards:megaavr"
+
+            - source-url: https://github.com/e-radionicacom/Dasduino-Board-Definitions-for-Arduino-IDE/raw/master/package_Dasduino_Boards_index.json
+              name: "Dasduino_Boards:stm32"
+
+          fqbn: ${{ matrix.board.fqbn }}
+          libraries: |
+            - source-path: ./
+          sketch-paths: |
+            - ./examples/
