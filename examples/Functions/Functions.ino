@@ -3,10 +3,10 @@
  *
  * @file        Functions.ino
  * @brief       Example of using custom functions. See more at solde.red/333016
+ *              Product: www.soldered.com/333003
  *
- *
- *
- * @authors     Zvonimir Haramustek for Soldered.com.com
+ *              
+ * @authors     Zvonimir Haramustek for Soldered.com
  ***************************************************/
 
 #include "16x2-LCD-SOLDERED.h"
@@ -23,33 +23,33 @@ void setup()
 void loop()
 {
     // Autoscroll
-    lcd.setCursor(5, 0);
-    lcd.print(F("Autoscrolling"));
-    lcd.setCursor(10, 1);
-    lcd.autoscroll();
+    lcd.setCursor(5, 0); //Set cursor to 6th (starts from 0) place in row, 1st row
+    lcd.print(F("Autoscrolling")); //Print text to LCD
+    lcd.setCursor(10, 1);   //Set cursor
+    lcd.autoscroll();   //Enable autoscroll
 
-    for (int i = 0; i < 10; i++)
+    for (int i = 0; i < 10; i++)    //Print first 10 integers
     {
-        lcd.print(i);
+        lcd.print(i);   
         delay(200);
     }
 
-    lcd.noAutoscroll();
-    lcd.clear();
+    lcd.noAutoscroll(); //Disable autoscroll
+    lcd.clear();    //Clear content from LCD
 
     // Scroll left and right
-    lcd.setCursor(10, 0);
+    lcd.setCursor(10, 0); 
     lcd.print(F("To the left!"));
     for (int i = 0; i < 10; i++)
     {
-        lcd.scrollDisplayLeft();
+        lcd.scrollDisplayLeft();    //This command shifts al content to left by 1 place
         delay(200);
     }
-    lcd.clear();
+    lcd.clear(); //Clear content from LCD
     lcd.print(F("To the right!"));
     for (int i = 0; i < 10; i++)
     {
-        lcd.scrollDisplayRight();
+        lcd.scrollDisplayRight();   //This command shifts al content to right by 1 place
         delay(200);
     }
     lcd.clear();
@@ -63,16 +63,16 @@ void loop()
 
     // Cursor blink
     lcd.setCursor(0, 0);
-    lcd.blink();
+    lcd.blink();    //This command enables cursor blink
     lcd.print(F("Cursor blink"));
     delay(3000);
     lcd.clear();
 
     // Blink without cursor
     lcd.setCursor(0, 0);
-    lcd.noCursor();
+    lcd.noCursor(); //Disable cursor, so it is no longer shown on screen
     lcd.print(F("Just blink"));
     delay(3000);
-    lcd.noBlink();
+    lcd.noBlink();  //Stop cursor blinking
     lcd.clear();
 }
