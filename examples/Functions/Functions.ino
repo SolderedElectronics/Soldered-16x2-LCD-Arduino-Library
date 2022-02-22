@@ -2,8 +2,7 @@
  **************************************************
  *
  * @file        Functions.ino
- * @brief       Example of using custom functions. See more at solde.red/333016
- *              Product: www.soldered.com/333003
+ * @brief       Example of using custom functions. See more at solde.red/333003
  *
  *              
  * @authors     Zvonimir Haramustek for Soldered.com
