@@ -1,12 +1,4 @@
 var files_dup =
 [
-    [ "16x2-LCD-SOLDERED.cpp", "16x2-_l_c_d-_s_o_l_d_e_r_e_d_8cpp.html", null ],
-    [ "16x2-LCD-SOLDERED.h", "16x2-_l_c_d-_s_o_l_d_e_r_e_d_8h.html", [
-      [ "LCD", "class_l_c_d.html", "class_l_c_d" ]
-    ] ],
-    [ "LCD_I2C.cpp", "_l_c_d___i2_c_8cpp.html", null ],
-    [ "LCD_I2C.h", "_l_c_d___i2_c_8h.html", [
-      [ "OutputState", "struct_output_state.html", "struct_output_state" ],
-      [ "LCD_I2C", "class_l_c_d___i2_c.html", "class_l_c_d___i2_c" ]
-    ] ]
+    [ "src", "dir_68267d1309a1af8e8297ef4c3efbcdba.html", "dir_68267d1309a1af8e8297ef4c3efbcdba" ]
 ];
