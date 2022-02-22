@@ -2,7 +2,7 @@
  **************************************************
  *
  * @file        Custom_Chars.ino
- * @brief       Example of using custom chars. See more at solde.red/333016
+ * @brief       Example of using custom chars. See more at solde.red/333003
  *
  *
  *
