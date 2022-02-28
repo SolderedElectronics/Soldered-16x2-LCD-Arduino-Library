@@ -2,7 +2,7 @@
  **************************************************
  *
  * @file        Hello_World.ino
- * @brief       Simple Hello World example for LCD. See more at solde.red/333016
+ * @brief       Simple Hello World example for LCD. See more at solde.red/333003
  *
  *
  *
@@ -30,9 +30,9 @@ void loop()
     // Flashing the backlight
     for (int i = 0; i < 5; ++i)
     {
-        lcd.backlight();
+        lcd.backlight();    //Turn on backlight
         delay(50);
-        lcd.noBacklight();
+        lcd.noBacklight();  //Turn off backlight
         delay(50);
     }
 
