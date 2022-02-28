@@ -5,9 +5,9 @@
 [![Make docs and publish to GitHub Pages](https://github.com/e-radionicacom/Soldered-16x2-LCD-Arduino-Library/actions/workflows/make_docs.yml/badge.svg?branch=dev)](https://github.com/e-radionicacom/Soldered-16x2-LCD-Arduino-Library/actions/workflows/make_docs.yml)
 
 
-| ![16x2 LCD](https://upload.wikimedia.org/wikipedia/commons/8/8f/Example_image.svg)        | 
+| ![16x2 LCD](https://upload.wikimedia.org/wikipedia/commons/8/8f/Example_image.svg)         | 
 | :---------------------------------------------------------------------------------------------: |
-| [16x2 LCD](https://www.solde.red/333003)                                                  | 
+| [16x2 LCD](https://www.solde.red/333003)                                                   | 
 
 
 16x2 LCD Module compiant to [easyC ecosystem](https://www.soldered.com/easyC). 
