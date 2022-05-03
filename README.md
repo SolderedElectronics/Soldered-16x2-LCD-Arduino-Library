@@ -1,7 +1,5 @@
 # 16x2 LCD Arduino library
 
-
-[![Compile Sketches](http://github-actions.40ants.com/e-radionicacom/Soldered-16x2-LCD-Arduino-Library/matrix.svg?branch=dev&only=Compile%20Sketches)](https://github.com/e-radionicacom/Soldered-16x2-LCD-Arduino-Library/actions/workflows/compile_test.yml)
 [![Make docs and publish to GitHub Pages](https://github.com/e-radionicacom/Soldered-16x2-LCD-Arduino-Library/actions/workflows/make_docs.yml/badge.svg?branch=dev)](https://github.com/e-radionicacom/Soldered-16x2-LCD-Arduino-Library/actions/workflows/make_docs.yml)
 
 
@@ -27,6 +25,12 @@ Access Arduino library documentation [here](https://e-radionicacom.github.io/Sol
 
 - Tutorial for using the 16x2 easyC board 
 - Installing an Arduino library             
+
+### Board compatibility
+
+The library is compatible with board & microcontroller families shown in green below: 
+
+[![Compile Sketches](http://github-actions.40ants.com/e-radionicacom/Soldered-16x2-LCD-Arduino-Library/matrix.svg?branch=dev&only=Compile%20Sketches)](https://github.com/e-radionicacom/Soldered-16x2-LCD-Arduino-Library/actions/workflows/compile_test.yml)
 
 ### About Soldered
 ![Soldered logo](https://raw.githubusercontent.com/e-radionicacom/Generic-easyC/dev/extras/Logo%20horizontal-2.svg)
