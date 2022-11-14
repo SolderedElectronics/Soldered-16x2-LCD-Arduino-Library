@@ -1,4 +1,4 @@
-# NAZIV PROIZVODA Arduino library
+# I2C LCD driver board Arduino library
 
 [![Make docs and publish to GitHub Pages](https://github.com/e-radionicacom/Soldered-Generic-Arduino-Library/actions/workflows/make_docs.yml/badge.svg?branch=dev)](https://github.com/e-radionicacom/Soldered-Generic-Arduino-Library/actions/workflows/make_docs.yml)
 
@@ -6,13 +6,13 @@
 | :---------------------------------------------------------------------------------------------: |
 | [I2C LCD driver board](https://www.solde.red/333003)                                                            |
 
-OPIS PROIZVODA + LINK NA [This adapter makes connection of LCD to Dasduino (or any other Arduino-compatible board) a breeze! It uses I2C communication which needs only two pins. It can be used and work with all of ours LCDs (16x2, 20x4, 16x4). Use our library and get started in few minutes of work!
+This adapter makes connection of LCD to Dasduino (or any other Arduino-compatible board) a breeze! It uses I2C communication which needs only two pins. It can be used and work with all of ours LCDs (16x2, 20x4, 16x4). Use our library and get started in few minutes of work!
 
 It's even easier with easyC - no soldering is needed!
 
-• I2C address: 0x20 (HEX)
-• Voltage: 3V
-• Potenciometer for contrast at the back of the board](https://www.soldered.com/en/easyC). 
+- I2C address: 0x20 (HEX)
+- Voltage: 3V
+- Potenciometer for contrast at the back of the board(https://www.soldered.com/en/easyC). 
 
 ### Repository Contents
 - **/src** - source files for the library (.h & .cpp)
@@ -20,7 +20,7 @@ It's even easier with easyC - no soldering is needed!
 - ***other*** - *keywords* file highlights function words in your IDE, *library.properties* enables implementation with Arduino Library Manager.
 
 ### Hardware design
-You can find hardware design for this board in *I2C LCD driver board* hardware repository.
+You can find hardware design for this board in [*I2C LCD driver board*](https://github.com/SolderedElectronics/I2C-LCD-driver-board-hardware-design) hardware repository.
 
 ### Documentation
 
