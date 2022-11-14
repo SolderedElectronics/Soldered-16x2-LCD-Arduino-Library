@@ -12,7 +12,8 @@ It's even easier with easyC - no soldering is needed!
 
 - I2C address: 0x20 (HEX)
 - Voltage: 3V
-- Potenciometer for contrast at the back of the board(https://www.soldered.com/en/easyC). 
+- Potenciometer for contrast at the back of the board
+https://www.soldered.com/en/easyC)
 
 ### Repository Contents
 - **/src** - source files for the library (.h & .cpp)
