@@ -97,18 +97,40 @@ $(document).ready(function(){initNavTree('index.html',''); initResizable(); });
 </div><!--header-->
 <div class="contents">
 <div class="textblock"><p ><a class="anchor" id="md_README"></a> <a href="https://github.com/e-radionicacom/Soldered-Generic-Arduino-Library/actions/workflows/make_docs.yml"><img src="https://github.com/e-radionicacom/Soldered-Generic-Arduino-Library/actions/workflows/make_docs.yml/badge.svg?branch=dev" alt="Make docs and publish to GitHub Pages" style="pointer-events: none;" class="inline"/></a></p>
-<table class="markdownTable">
-<tr class="markdownTableHead">
-<th class="markdownTableHeadCenter"><img src="https://github.com/SolderedElectronics/I2C-LCD-driver-board-hardware-design/blob/main/OUTPUTS/V1.2.2/333003.jpg" alt="I2C LCD driver board" class="inline"/>    </th></tr>
-<tr class="markdownTableRowOdd">
-<td class="markdownTableBodyCenter"><a href="https://www.solde.red/333003">I2C LCD driver board</a>   </td></tr>
-</table>
+<p >| <img src="https://github.com/SolderedElectronics/I2C-LCD-driver-board-hardware-design/blob/main/OUTPUTS/V1.2.2/333003.jpg" alt="I2C LCD driver board" class="inline"/> | | :------------------------------------------------------------------------------------------&mdash;: | | <a href="https://www.solde.red/333003">I2C LCD driver board</a> <br  />
+</p>
 <p >This adapter makes connection of <a class="el" href="class_l_c_d.html">LCD</a> to Dasduino (or any other Arduino-compatible board) a breeze! It uses I2C communication which needs only two pins. It can be used and work with all of ours LCDs (16x2, 20x4, 16x4). Use our library and get started in few minutes of work!</p>
 <p >It's even easier with easyC - no soldering is needed!</p>
 <ul>
 <li>I2C address: 0x20 (HEX)</li>
 <li>Voltage: 3V</li>
 <li>Potenciometer for contrast at the back of the board (<a href="https://www.soldered.com/en/easyC">https://www.soldered.com/en/easyC</a>)</li>
+</ul>
+<p >| <img src="https://upload.wikimedia.org/wikipedia/commons/8/8f/Example_image.svg" alt="LCD display 16x2 I2C white characters on blue background" style="pointer-events: none;" class="inline"/> | | :------------------------------------------------------------------------------------------&mdash;: | | <a href="https://www.solde.red/333171">LCD display 16x2 I2C white characters on blue background</a> <br  />
+</p>
+<p ><a class="el" href="class_l_c_d.html">LCD</a> display with HD44780 controller enables showing text, symbols, value or anything else that comes from Croduino/Arduino. It is capable of showing 16 symbols in two lines and therefore can be used in many projects that need to send clearly visible and legible output information. An I2C <a class="el" href="class_l_c_d.html">LCD</a> adapter is soldered to this <a class="el" href="class_l_c_d.html">LCD</a> screen, which enables characters to be displayed on the <a class="el" href="class_l_c_d.html">LCD</a> screen via the I2C bus. It also has an easyC connector for a really simple connection.</p>
+<ul>
+<li>Color of symbols: White</li>
+<li>Backlight: Blue</li>
+<li>Number of chars: 16 chars in 2 rows</li>
+<li>Dimensions: 80 x 36 x 12 mm</li>
+<li>Display dimensions: 64.5 x 16 mm</li>
+<li>Voltage: 3V3</li>
+<li>Communication protocol: I2C</li>
+<li>With soldered I2C adapter</li>
+</ul>
+<p >| <img src="https://upload.wikimedia.org/wikipedia/commons/8/8f/Example_image.svg" alt="LCD display 20x4 I2C white characters on blue background" style="pointer-events: none;" class="inline"/> | | :------------------------------------------------------------------------------------------&mdash;: | | <a href="https://www.solde.red/333172">LCD display 20x4 I2C white characters on blue background</a> <br  />
+</p>
+<p ><a class="el" href="class_l_c_d.html">LCD</a> display with HD44780 controller enables showing text, symbols, value or anything else that comes from Croduino/Arduino. It is capable of showing 16 symbols in two lines and therefore can be used in many projects that need to send clearly visible and legible output information. An I2C <a class="el" href="class_l_c_d.html">LCD</a> adapter is soldered to this <a class="el" href="class_l_c_d.html">LCD</a> screen, which enables characters to be displayed on the <a class="el" href="class_l_c_d.html">LCD</a> screen via the I2C bus. It also has an easyC connector for a really simple connection.</p>
+<ul>
+<li>Color of symbols: White</li>
+<li>Backlight: Blue</li>
+<li>Number of chars: 20 chars in 4 rows</li>
+<li>Dimensions: 98 x 60 x 12 mm</li>
+<li>Display dimensions: 77 x 25,2 mm</li>
+<li>Voltage: 3V3</li>
+<li>Communication protocol: I2C</li>
+<li>With soldered I2C adapter</li>
 </ul>
 <h2><a class="anchor" id="autotoc_md1"></a>
 Repository Contents</h2>
@@ -120,6 +142,8 @@ Repository Contents</h2>
 <h2><a class="anchor" id="autotoc_md2"></a>
 Hardware design</h2>
 <p >You can find hardware design for this board in <a href="https://github.com/SolderedElectronics/I2C-LCD-driver-board-hardware-design"><em>I2C LCD driver board</em></a> hardware repository.</p>
+<p >You can find hardware design for this board in <a href="https://github.com/SolderedElectronics/NAZIVPROIZVODA-hardware-design"><em>LCD display 16x2 I2C white characters on blue background</em></a> hardware repository.</p>
+<p >You can find hardware design for this board in <a href="https://github.com/SolderedElectronics/NAZIVPROIZVODA-hardware-design"><em>LCD display 20x4 I2C white characters on blue background</em></a> hardware repository.</p>
 <h2><a class="anchor" id="autotoc_md3"></a>
 Documentation</h2>
 <p >Access Arduino library documentation <a href="https://SolderedElectronics.github.io/Soldered-Generic-Arduino-Library/">here</a>.</p>
@@ -158,7 +182,7 @@ Have fun!</h1>
     <!-- id is needed for treeview function! -->
     <ul>
         <li class="footer">
-            Generated on Mon Nov 14 2022 15:29:53 for 16x2 easyC LCD Library by <a href="http://www.doxygen.org/index.html">
+            Generated on Tue Nov 15 2022 12:58:16 for 16x2 easyC LCD Library by <a href="http://www.doxygen.org/index.html">
                 <img class="footer" src="doxygen.png" alt="doxygen"
                     onerror="this.onerror=null;this.src='doxygen.svg';" /></a> 1.9.5.
             Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
